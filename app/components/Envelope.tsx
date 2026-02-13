@@ -28,7 +28,7 @@ export default function Envelope() {
           <div
             className={`absolute z-20 left-2 right-2 bg-[#fffdf5] rounded shadow-md transition-all duration-[1500ms] cubic-bezier(0.4, 0, 0.2, 1) ${
               isOpen 
-                ? '-translate-y-[140px] md:-translate-y-[280px] h-[260px] md:h-[450px] rotate-[-1deg] delay-500' // slightly taller on mobile
+                ? '-translate-y-[140px] md:-translate-y-[280px] h-[260px] md:h-[430px] rotate-[-1deg] delay-500' // slightly taller on mobile
                 : 'top-[40px] h-full translate-y-4' 
             }`}
           >
